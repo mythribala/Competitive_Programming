@@ -6,7 +6,7 @@ Jist -> Given the Postorder and Inorder Traversal of a BinaryTree, we have to co
 Important Observation : It is only possible to construct a unique BinaryTree when its Inorder traversal is given. i.e, Using only the 
 Preorder and Postorder traversals, we cannot construct a unique BinaryTree
 
-It is similar to the Question No : LC 105 (using Preorder and Inorder traversals)
+It is similar to the Problem No : LC 105 (using Preorder and Inorder traversals)
 '''
 
 #Topics invloved : Recursion, Hashing, Observation
