@@ -61,3 +61,11 @@ if (dsu.FindUParent(3) == dsu.FindUParent(7)) :
     print('After : Same')
 else :
     print('After : Not Same')
+
+'''
+Output of Example : 
+
+Before : Not Same
+After : Same
+
+'''
