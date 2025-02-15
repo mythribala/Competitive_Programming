@@ -4,6 +4,7 @@ DisJointSetUnion : Used to find the Connected Components in the graph
 Time Complexity : 4α(n)
 
 '''
+
 class DisJointSet :
     def __init__(self, n) :
         self.parent = [i for i in range(n + 1)]
@@ -67,5 +68,4 @@ Output of Example :
 
 Before : Not Same
 After : Same
-
 '''
