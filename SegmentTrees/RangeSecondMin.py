@@ -62,3 +62,18 @@ def Query(index, start, end, qL, qR) :
     ansR = Query(2 * index + 1, mid + 1, end, qL, qR)
     combined = sorted(ansL + ansR)[ : 2]
     return combined
+
+#Example
+
+n = int(input())
+sgt = [0] * (4 * n)
+arr = list(map(int,input().split()))
+q = int(input())
+BuildTree(1, 0, n - 1)
+for _ in range(q) :
+    x, l, r = tuple(map(int,input().split()))
+    if (x == 1) :
+        Update(1, 0, n - 1, l, r)
+    else :
+        ans = Query(1, 0, n - 1, l, r)
+        print(ans)
