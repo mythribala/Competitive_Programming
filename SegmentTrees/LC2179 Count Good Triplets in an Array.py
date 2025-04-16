@@ -2,9 +2,6 @@
 
 Problem Link : https://leetcode.com/problems/count-good-triplets-in-an-array
 
-'''
-
-'''
 Solution : Using SegmenTree + Hashing
            Query -> query each time at index 'i' to get the no. of common elements between 0 - index of nums1[i] at nums2
            Build -> Build each time such that which sets index of nums1[i] at nums2 = 1 and updates the range sum using merge
