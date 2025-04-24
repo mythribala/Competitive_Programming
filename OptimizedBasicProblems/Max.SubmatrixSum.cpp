@@ -17,6 +17,8 @@ Problem Link : https://www.naukri.com/code360/problems/max-submatrix_1214973
 
 // Code
 
+/*
+
 #include <bits/stdc++.h>
 int maxSumSubmatrix(vector<vector<int>> &mat, int n, int m)
 {
@@ -40,3 +42,5 @@ int maxSumSubmatrix(vector<vector<int>> &mat, int n, int m)
 	}
 	return res;
 }
+
+*/
