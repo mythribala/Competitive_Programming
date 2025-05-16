@@ -1,7 +1,7 @@
 '''
 
 LeetCode 3337 : Total Characters in String After Transformations II
-Topics : Matrix Exponentiation using Transformation matrix 
+Topic : Matrix Exponentiation using Transformation matrix 
 
 '''
 
